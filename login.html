@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Veloz Bicycle Login</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+      body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100h;
+        margin: 0;
+      }
+
+      .login-container {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+      }
+      .login-container img {
+        width: 200px;
+        margin-bottom: 10px;
+      }
+      .login-container h1 {
+        font-family: "Arial", sans-serif;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .form-control {
+        margin-bottom: 15px;
+        border-color: #000000;
+        border-radius: 15px;
+      }
+
+      .form-h6 {
+        text-align: left;
+      }
+
+      .btn-primary {
+        background-color: #ff0000;
+        border: none;
+        padding: 3px 145px;
+      }
+      .btn-primary:hover {
+        background-color: #e60000;
+      }
+      .google-btn {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #000000;
+        margin-top: 10px;
+        padding: 0px 70px; /* Sesuaikan padding jika diperlukan */
+      }
+      .google-btn img {
+        width: 20px;
+        margin-right: 10px;
+        margin-top: 7px;
+      }
+      .google-btn:hover {
+        background-color: #f1f1f1;
+      }
+      .text-muted {
+        margin-top: 20px;
+      }
+      .text-muted a {
+        color: #ff0000;
+        text-decoration: none;
+      }
+      .text-muted a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <img alt="Veloz Bicycle Logo" height="70" src="logohitam.png" width="200" />
+      <form>
+        <h6 class="form-h6">Nama pengguna atau email</h6>
+        <input class="form-control" placeholder="..." type="text" />
+        <h6 class="form-h6">Password</h6>
+        <input class="form-control" placeholder="..." type="password" />
+        <button href="menuuser.html" class="btn btn-primary btn-block" type="submit">Masuk</button>
+        <div class="text-center my-1">------- OR -------</div>
+        <button class="btn google-btn btn-block my-1" type="button">
+          <img alt="Google Logo" height="20" src="google.png" width="10" />
+          Masuk dengan Google
+        </button>
+      </form>
+      <div class="text-muted">
+        Tidak punya akun?
+        <a href="daftar.html"> Buat akun </a>
+      </div>
+    </div>
+  </body>
+</html>
